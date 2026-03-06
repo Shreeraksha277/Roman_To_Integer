@@ -12,7 +12,7 @@ class Solution {
             }
         }
 
-        return total;
+        return total ;
     }
 
     private int getValue(char c) {
