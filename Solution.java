@@ -15,7 +15,7 @@ class Solution {
         return total ;
     }
 
-    private int getValue(char c) {
+    private int getValue(char c)  {
         switch (c) {
             case 'I': return 1;
             case 'V': return 5;
