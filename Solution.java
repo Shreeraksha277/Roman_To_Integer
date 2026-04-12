@@ -7,7 +7,7 @@ class Solution  {
  
              if (i + 1 < s.length() && value < getValue(s.charAt(i + 1))) {
                 total -= value; // subtraction case
-              } else {
+               } else {
                  total += value; // normal case
             }
         }
