@@ -5,7 +5,7 @@
             for (int i = 0; i < s.length(); i++) {
              int value = getValue(s.charAt(i));
   
-             if (i + 1 < s.length() && value < getValue(s.charAt(i + 1))) {
+              if (i + 1 < s.length() && value < getValue(s.charAt(i + 1))) {
                 total -= value; // subtraction case
                } else {
                  total += value; // normal case
