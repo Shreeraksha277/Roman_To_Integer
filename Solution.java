@@ -9,7 +9,7 @@
                 total -= value; // subtraction case
                } else {
                  total += value; // normal case
-            }
+             }
         }
 
         return total ;
